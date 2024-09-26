@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carusel.css">
+    <title>Evolución de los Computadores</title>
+</head>
+<body>
+
+<div class="carrusel">
+    <div class="carrusel-imagenes">
+        <img src="imagenes/fonde3.jpg" alt="Imagen 1"> <!-- Imagen del carrusel -->
+        <img src="imagenes/fondo1.png" alt="Imagen 2"> <!-- Imagen del carrusel -->
+        <img src="imagenes/fondo5.png" alt="Imagen 3"> <!-- Imagen del carrusel -->
+    </div>
+    <button class="anterior" onclick="cambiarImagen(-1)">&#10094;</button>
+    <button class="siguiente" onclick="cambiarImagen(1)">&#10095;</button>
+</div>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="evolucion.html">Evolución</a></li>
+        <li><a href="insignias.html">Insignias</a></li>
+        <li><a href="formularios.html">Formularios</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="videoyaudio.html">Video y Audio</a></li>
+        <li><a href="degradados.html">Degradados</a></li>
+        <li><a href="transparencias.html">Transparencias</a></li>
+        <li><a href="animaciones.html">Animaciones</a></li>
+        <li><a href="svg.html">SVG</a></li>
+        <li><a href="carrusel.html">Carrusel</a></li>
+    </ul>
+</nav>
+
+<script>
+    let indice = 0;
+    mostrarImagen(indice);
+
+    function cambiarImagen(n) {
+        mostrarImagen(indice += n);
+    }
+
+    function mostrarImagen(n) {
+        const imagenes = document.querySelectorAll('.carrusel-imagenes img');
+        if (n >= imagenes.length) { indice = 0; }
+        if (n < 0) { indice = imagenes.length - 1; }
+
+        imagenes.forEach((img, index) => {
+            img.style.display = index === indice ? 'block' : 'none';
+        });
+    }
+</script>
+
+</body>
+</html>

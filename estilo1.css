@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.div1, .div2 {
+  width: 100%;
+  height: 40px;
+}
+
+.div1 {
+  background-color: rgb(0, 0, 0);
+  padding-left: 4%;
+  color: #FFCC00;
+  display: flex;
+  align-items: center;
+}
+
+.div2 {
+  background-color: rgb(232, 169, 9);
+  height: 10px;
+}
+
+header {
+  height: 250px;
+  text-align: center; /* Centra el contenido del header */
+}
+
+nav {
+  background: rgba(6, 6, 6, 0.7);
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 8px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #FFCC00;
+}
+
+section {
+  padding: 20px; /* Espacio para el contenido */
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente el contenido del perfil */
+  margin-bottom: 20px;
+}
+
+.perfil-img {
+  border-radius: 50%;
+  height: 80px; /* Ajusta el tamaño según necesites */
+  margin-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Mantiene los contenedores en sus posiciones originales */
+  margin-top: 20px;
+}
+
+.flex-item {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%; /* Ajusta el ancho según necesites */
+}
+
+.flex-item h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.div1, .div2 {
+  width: 100%;
+  height: 40px;
+}
+
+.div1 {
+  background-color: rgb(0, 0, 0);
+  padding-left: 4%;
+  color: #FFCC00;
+  display: flex;
+  align-items: center;
+}
+
+.div2 {
+  background-color: rgb(232, 169, 9);
+  height: 10px;
+}
+
+header {
+  height: 250px;
+}
+
+nav {
+  background: rgba(6, 6, 6, 0.7);
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 8px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #FFCC00;
+}
+
+section {
+  padding: 20px; /* Espacio para el contenido */
+}
+
+form {
+  background: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 500px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espacio entre los campos */
+}
+
+label {
+  display: block; /* Hace que la etiqueta ocupe todo el ancho */
+  margin-bottom: 5px; /* Espacio entre la etiqueta y el campo */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ddd; /* Borde */
+  border-radius: 4px; /* Esquinas redondeadas */
+}
+
+button {
+  background-color: #4CAF50; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 4px; /* Esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+button:hover {
+  background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.div1, .div2 {
+  width: 100%;
+  height: 40px;
+}
+
+.div1 {
+  background-color: rgb(0, 0, 0);
+  padding-left: 4%;
+  color: #FFCC00;
+  display: flex;
+  align-items: center;
+}
+
+.div2 {
+  background-color: rgb(232, 169, 9);
+  height: 10px;
+}
+
+header {
+  height: 250px;
+}
+
+nav {
+  background: rgba(6, 6, 6, 0.7);
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #FFCC00;
+}
+
+section {
+  padding: 20px;
+  text-align: center; /* Centra el contenido en la sección */
+}
+
+video, audio {
+  margin: 20px 0; /* Espaciado entre el video y audio */
+}
+
+.caja {
+  margin: 10px 0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.sombra-externa {
+  box-shadow: 6px 20px 10px black;
+  background-color: #3498db; /* Azul */
+}
+
+.sombra-interna {
+  box-shadow: 7px 9px 15px black inset;
+  background-color: #e74c3c; /* Rojo */
+}
+
+.halo {
+  box-shadow: 0px 0px 30px blue;
+  background-color: #9b59b6; /* Púrpura */
+}
+
+#apartado1 {
+  text-shadow: 10px 10px 5px gray;
+  background-color: #2ecc71; /* Verde */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sombra-multiple {
+  box-shadow: 0px 0px 20px red inset, 0px 0px 25px blue;
+  background-color: #f39c12; /* Naranja */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+.degradado-lineal-1 {
+  height: 100px;
+  background: linear-gradient(to bottom, red, gold);
+}
+
+.degradado-lineal-2 {
+  height: 100px;
+  background: linear-gradient(30deg, crimson, sienna, royalblue, indianred, purple);
+}
+
+.degradado-lineal-3 {
+  height: 100px;
+  background: linear-gradient(to bottom, black 10%, orangered 75%, yellow);
+}
+
+.degradado-radial-1 {
+  height: 100px;
+  background: radial-gradient(center center, circle, black, #1162ac);
+}
+
+.degradado-radial-2 {
+  height: 100px;
+  background: radial-gradient(200px top, ellipse, white, #1162ac, black);
+}
+
+.degradado-radial-3 {
+  height: 100px;
+  background: radial-gradient(center center, ellipse, white 25%, peru 66%, black 96%);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
